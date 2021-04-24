@@ -1,13 +1,29 @@
-.container{
-    width: 320px;
-    height: 720px;
-    background-color: #eaedef;
-    margin: 0 auto;
-    top: 20px;
+
+body{
+    background-color:darkgray;
     position: relative;
-    border-radius: 5px;
 }
 
+.heading{
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 60px;
+}
+
+.container{
+    margin: 0 auto;
+    top: 20px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.calculator{
+    margin: 0 auto;
+    width: 320px;
+    height: 620px;
+    background-color: #eaedefb4;
+    border-radius: 15px;
+}
 #output{
     height: 120px;
 }
@@ -62,4 +78,65 @@
 
 .empty{
     opacity: 0;
+}
+
+
+
+.operator {
+    border-radius:15%;
+}
+
+#sinx,#sqrt{
+    border-color: lightblue;
+}
+
+#\*{
+    border-color: red;
+}
+
+#\={
+    border-color: tomato;
+}
+
+#\-{
+    border-color: aqua;
+}
+
+#\+{
+    border-color: pink;
+}
+
+#cosx,#square{
+    border-color: seagreen;
+}
+
+
+#cosx:hover,#square:hover{
+    background-color: seagreen;
+}
+
+#sinx:hover,#sqrt:hover{
+    background-color: lightblue;
+}
+
+#\+:hover{
+    background-color: pink;
+}
+
+#\*:hover{
+    background-color: red;
+}
+
+#\=:hover{
+    background-color: tomato;
+}
+
+#\-:hover{
+    background-color: aqua;
+}
+
+
+hr.rule{
+    border-color:black;
+    border-radius: 40%;
 }
