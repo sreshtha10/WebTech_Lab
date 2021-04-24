@@ -53,7 +53,27 @@ function operatorClicked(e){
             printResult(output);
         }
     }
-    // operations 
+    else if (e.target.id == "sinx"){
+        var result = convertToNumber(getResult());
+        result = Math.sin(result);
+        printResult(result);
+    }
+    else if (e.target.id == "cosx"){
+        var result = convertToNumber(getResult());
+        result = Math.cos(result);
+        printResult(result);
+    }
+    else if (e.target.id == "sqrt"){
+        var result = convertToNumber(getResult());
+        result = Math.sqrt(result);
+        printResult(result);
+    }
+    else if (e.target.id == "square"){
+        var result = convertToNumber(getResult());
+        result = Math.pow(result,2);
+        printResult(result);
+    }
+    // operations other than sin(x) , cos(x) , arcsin(x) and arccos(x)
     else {
         var output = getResult();
         var history = getHistory();
