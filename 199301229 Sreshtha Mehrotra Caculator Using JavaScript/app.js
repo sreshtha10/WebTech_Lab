@@ -123,5 +123,3 @@ function numberClicked(e){
 
 
 
-
-
