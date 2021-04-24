@@ -83,7 +83,13 @@ function operatorClicked(e){
                 history = history+operand;
                 printHistory(history);
                 var result  = eval(history);
-                printResult(result);
+                if(result == 0){
+                    printHistory("0");
+                }
+                else{
+                    printResult(result);
+                }
+                
             }
             else{
                 output = (convertToNumber(output)).toString();
@@ -119,6 +125,8 @@ function numberClicked(e){
         printResult(output);
     }
 }
+
+
 
 
 
