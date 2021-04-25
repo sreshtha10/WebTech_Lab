@@ -1,12 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>User Registration - Sreshtha Mehrotra (199301229)</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="heading">
+            <h1><span>User </span>Registration</h1>
+        </div>
+        <div class="form">
+            <form>
+                <p>
+                    <label>First Name</label>
+                    <input type="text" name="firstName">
+                </p>
+                <p>
+                    <label>Last Name</label>
+                    <input type="text" name="lastName">
+                </p>
+                <p>
+                    <label>Contact Number</label>
+                    <input type="text" name="contactNo">
+                </p>
+                <p>
+                    <label>Email Address</label>
+                    <input type="email" name="email">
+                </p>
+                <p>
+                    <label>DOB</label>
+                    <input type="date" name="dob" min="1900-01-01" max="2021-01-01">
+                </p>
+                <p>
+                    <label>Are you a student?</label>
+                    <select name="student">
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                    </select>
+                </p>
+                <p>
+                    <label>Username</label>
+                    <input type="text" name="username">
+                </p>
+                <p>
+                    <label>Password</label>
+                    <input type="password" name="password">
+                </p>
+            </form>
+        </div>
+    </div>
 </body>
+
 </html>
