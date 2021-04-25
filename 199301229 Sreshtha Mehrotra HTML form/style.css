@@ -1,14 +1,16 @@
 
+body{
+    background-color: lightblue;
+}
 .container{
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     flex-basis: auto;
-}
-
-.container div{
-    border: 1px #ccc solid;
+    margin-top: 100px;
+    width: 500px;
+    color: darkblue;
 }
 
 .container h1{
@@ -24,6 +26,44 @@
 }
 
 
+button{
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 20%;
+}
+
+button:hover{
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 20%;
+    background-color: black;
+    color: blue;
+}
 
 
 
+span{
+    color:black;
+}
+
+
+.container input{
+    margin-left: 25px;
+}
+
+
+
+.container p{
+    margin-left: 50px;
+}
+
+
+button{
+    margin-left: 80px;
+}
+
+.about{
+    margin-top: 100px;
+    margin-left: 100px;
+    font-family: cursive;
+}
